@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF4144F61810B940009943FB /* CFViewController_landscape.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4144F51810B940009943FB /* CFViewController_landscape.m */; };
+		CF5D8E38181AB904005A51AE /* cell-phone-1-nr0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF5D8E37181AB904005A51AE /* cell-phone-1-nr0.mp3 */; };
+		CF5D8E3A181AB914005A51AE /* typewriter-return-1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF5D8E39181AB914005A51AE /* typewriter-return-1.mp3 */; };
+		CF5D8E3C181B0A28005A51AE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF5D8E3B181B0A28005A51AE /* AVFoundation.framework */; };
+		CF5D8E3E181B0A3E005A51AE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF5D8E3D181B0A3E005A51AE /* AVFoundation.framework */; };
 		CFE7DBD11807B2F70091C21F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE7DBD01807B2F70091C21F /* UIKit.framework */; };
 		CFE7DBD31807B2F70091C21F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE7DBD21807B2F70091C21F /* Foundation.framework */; };
 		CFE7DBD51807B2F70091C21F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE7DBD41807B2F70091C21F /* CoreGraphics.framework */; };
@@ -24,6 +29,7 @@
 		CFE7DBFA1807B2F70091C21F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE7DBD21807B2F70091C21F /* Foundation.framework */; };
 		CFE7DC021807B2F70091C21F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFE7DC001807B2F70091C21F /* InfoPlist.strings */; };
 		CFE7DC051807B2F70091C21F /* calcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE7DC041807B2F70091C21F /* calcTests.m */; };
+		CFE7DC101809C6DF0091C21F /* myStack.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE7DC0F1809C6DF0091C21F /* myStack.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF4144F51810B940009943FB /* CFViewController_landscape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFViewController_landscape.m; sourceTree = "<group>"; };
+		CF4144F81810B9A1009943FB /* CFViewController_landscape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFViewController_landscape.h; sourceTree = "<group>"; };
+		CF5D8E37181AB904005A51AE /* cell-phone-1-nr0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cell-phone-1-nr0.mp3"; sourceTree = "<group>"; };
+		CF5D8E39181AB914005A51AE /* typewriter-return-1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "typewriter-return-1.mp3"; sourceTree = "<group>"; };
+		CF5D8E3B181B0A28005A51AE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CF5D8E3D181B0A3E005A51AE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		CFE7DBCD1807B2F70091C21F /* calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFE7DBD01807B2F70091C21F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CFE7DBD21807B2F70091C21F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,6 +72,8 @@
 		CFE7DC011807B2F70091C21F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CFE7DC031807B2F70091C21F /* calcTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = calcTests.h; sourceTree = "<group>"; };
 		CFE7DC041807B2F70091C21F /* calcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = calcTests.m; sourceTree = "<group>"; };
+		CFE7DC0E1809C6DF0091C21F /* myStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myStack.h; sourceTree = "<group>"; };
+		CFE7DC0F1809C6DF0091C21F /* myStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myStack.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,9 +81,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF5D8E3C181B0A28005A51AE /* AVFoundation.framework in Frameworks */,
 				CFE7DBD11807B2F70091C21F /* UIKit.framework in Frameworks */,
 				CFE7DBD31807B2F70091C21F /* Foundation.framework in Frameworks */,
 				CFE7DBD51807B2F70091C21F /* CoreGraphics.framework in Frameworks */,
+				CF5D8E3E181B0A3E005A51AE /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +105,7 @@
 		CFE7DBC41807B2F70091C21F = {
 			isa = PBXGroup;
 			children = (
+				CF5D8E3B181B0A28005A51AE /* AVFoundation.framework */,
 				CFE7DBD61807B2F70091C21F /* calc */,
 				CFE7DBFD1807B2F70091C21F /* calcTests */,
 				CFE7DBCF1807B2F70091C21F /* Frameworks */,
@@ -108,6 +125,7 @@
 		CFE7DBCF1807B2F70091C21F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CF5D8E3D181B0A3E005A51AE /* AVFoundation.framework */,
 				CFE7DBD01807B2F70091C21F /* UIKit.framework */,
 				CFE7DBD21807B2F70091C21F /* Foundation.framework */,
 				CFE7DBD41807B2F70091C21F /* CoreGraphics.framework */,
@@ -123,6 +141,10 @@
 				CFE7DBE01807B2F70091C21F /* CFAppDelegate.m */,
 				CFE7DBE81807B2F70091C21F /* MainStoryboard_iPhone.storyboard */,
 				CFE7DBEB1807B2F70091C21F /* MainStoryboard_iPad.storyboard */,
+				CFE7DC0E1809C6DF0091C21F /* myStack.h */,
+				CFE7DC0F1809C6DF0091C21F /* myStack.m */,
+				CF4144F81810B9A1009943FB /* CFViewController_landscape.h */,
+				CF4144F51810B940009943FB /* CFViewController_landscape.m */,
 				CFE7DBEE1807B2F70091C21F /* CFViewController.h */,
 				CFE7DBEF1807B2F70091C21F /* CFViewController.m */,
 				CFE7DBD71807B2F70091C21F /* Supporting Files */,
@@ -133,6 +155,8 @@
 		CFE7DBD71807B2F70091C21F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CF5D8E37181AB904005A51AE /* cell-phone-1-nr0.mp3 */,
+				CF5D8E39181AB914005A51AE /* typewriter-return-1.mp3 */,
 				CFE7DBD81807B2F70091C21F /* calc-Info.plist */,
 				CFE7DBD91807B2F70091C21F /* InfoPlist.strings */,
 				CFE7DBDC1807B2F70091C21F /* main.m */,
@@ -241,6 +265,8 @@
 				CFE7DBE71807B2F70091C21F /* Default-568h@2x.png in Resources */,
 				CFE7DBEA1807B2F70091C21F /* MainStoryboard_iPhone.storyboard in Resources */,
 				CFE7DBED1807B2F70091C21F /* MainStoryboard_iPad.storyboard in Resources */,
+				CF5D8E38181AB904005A51AE /* cell-phone-1-nr0.mp3 in Resources */,
+				CF5D8E3A181AB914005A51AE /* typewriter-return-1.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +304,8 @@
 				CFE7DBDD1807B2F70091C21F /* main.m in Sources */,
 				CFE7DBE11807B2F70091C21F /* CFAppDelegate.m in Sources */,
 				CFE7DBF01807B2F70091C21F /* CFViewController.m in Sources */,
+				CFE7DC101809C6DF0091C21F /* myStack.m in Sources */,
+				CF4144F61810B940009943FB /* CFViewController_landscape.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +496,7 @@
 				CFE7DC0A1807B2F70091C21F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFE7DC0B1807B2F70091C21F /* Build configuration list for PBXNativeTarget "calcTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +505,7 @@
 				CFE7DC0D1807B2F70091C21F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

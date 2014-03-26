@@ -42,5 +42,18 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+// code from link - http://www.raywenderlich.com/; http://stackoverflow.com/questions/12520030/how-to-force-a-uiviewcontroller-to-portait-orientation-in-ios-6
+
+
+- (NSUInteger)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window{
+    NSUInteger orientations = UIInterfaceOrientationMaskAllButUpsideDown;
+    
+    if(self.window.rootViewController){
+        UIViewController *presentedViewController = [[(UINavigationController *)self.window.rootViewController viewControllers] lastObject];
+        orientations = [presentedViewController supportedInterfaceOrientations];
+    }
+    
+    return orientations;
+}
 
 @end
